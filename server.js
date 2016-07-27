@@ -4,7 +4,7 @@ var MongoClient = require('mongodb').MongoClient
 var bodyParser = require('body-parser');
 app.use( bodyParser.json() );
 var ObjectID = require( 'mongodb' ).ObjectID;
-var html = require('/index.html')
+var script = require('../app.js')
 
 var url = 'mongodb://localhost:27017/farm';//make this global
 
